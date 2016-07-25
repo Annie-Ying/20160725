@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>demo6.html</title>
+
+	<style type="text/css">
+		*{
+			padding: 0px;
+			margin: 0px;
+		}
+
+		.waper{
+			border: 10px solid #cccccc;
+			margin: 0 auto;
+			width: 500px;
+
+		}
+
+
+		.left{
+			width: 200px;
+			height: 400px;
+			background: #77aa11;
+			float: left;
+		}
+
+		.clear:after{
+			content: '';
+			display: block;
+			clear: both;
+		}
+
+		.top{
+			width: 300px;
+			height: 80px;
+			background: #ff9900;
+			float: right;
+		}
+
+		.midleft{
+			width: 150px;
+			height: 160px;
+			background: #ff6699;
+			float: left;
+		}
+
+		.midright{
+			width: 150px;
+			height: 160px;
+			background: #44ffcc;
+			float: right;
+		}
+
+		.bottom{
+			width: 300px;
+			height: 160px;
+			background: #336699;
+			float: left;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="waper clear">
+
+		<div class="left" ></div>
+
+
+		<div class="right">
+			<div class="top"></div>
+			<div class="mid">
+				<div class="midleft"></div>
+				<div class="midright"></div>
+			</div>
+			<div class="bottom"></div>
+		</div>
+		
+	</div>
+</body>
+</html>
